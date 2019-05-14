@@ -1,0 +1,58 @@
+#table-container
+{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33); 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 340px;
+    max-width: 680px;    
+}
+
+table
+{  
+    padding: 5px;
+    border: 1px solid #3a445a;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-header
+{
+    background-color:  #00b5ad ;
+    color: #fff;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #3a445a;
+}
+
+#userName-label
+{
+    text-align: center;
+    color: #00b5ad;
+    padding: 10px;
+    background-color: #fff;
+    border-left: 1px solid #3a445a;
+    border-right: 1px solid #3a445a;      
+}
+
+th, td
+{
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border-right: 1px solid #3a445a;
+    border-top: 1px solid #3a445a;   
+}
+tr:nth-child(even)
+{
+    background-color: #fff;
+}
+tr:nth-child(odd)
+{
+    background-color: #f1f1f1;
+}

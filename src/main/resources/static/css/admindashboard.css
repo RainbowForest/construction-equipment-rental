@@ -1,0 +1,50 @@
+.dbpanel
+{
+    background-color: #fff;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 10px 10px 10px 35px;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33); 
+    
+}
+
+.panel-header
+{
+    background-color: #ff855e;
+    height: 30px;
+    color: #fff;
+    line-height: 2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.panel-content
+{
+   margin: 10px;
+}
+
+.panel-tiles
+{
+    height: 40px;
+    line-height: 2.5;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33); 
+}
+.panel-tiles:hover
+{
+    background-color: #e0e0e0;
+    
+}
+
+.panel-content a
+{
+    text-decoration: none;
+    color: #a1a1a1;
+    display: block;
+}

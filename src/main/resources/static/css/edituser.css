@@ -1,0 +1,135 @@
+#table-container
+{   
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33); 
+    width: 500px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttonbar
+{
+    grid-area: buttonbar;
+    height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #3a445a;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33);  
+}
+
+input[type=submit], input[type=button]
+{
+    float: left;
+    background-color: #f1f1f1;
+    color: #a2a2a2;
+    width: 165px;
+    height: 40px;
+    margin-right: 3px;
+    margin-left:  3px;  
+    border-radius: 4px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33);
+}
+input[type=submit]:hover
+{
+    background-color: #00b5ad;
+    color: #fff;
+}
+
+input[type=button]:hover
+{
+    background-color: #CD5C5C;
+    color: #fff;
+}
+
+form
+{   
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: grid;
+    grid-template-columns: 345px;
+    grid-template-rows: 30px 300px;
+    grid-template-areas: 
+        "header"
+        "info "
+        "buttonbar";
+}
+
+#info-form
+{ 
+    
+    grid-area: info;
+    text-align: right;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #3a445a;
+    
+}
+
+#table-header
+{   
+    grid-area: header;
+    background-color: #00b5ad;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+
+.label
+{   
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.separator
+{
+    height: 1px;
+    background-color: #00b5ad;
+    margin-top: 5px; 
+}
+
+input[type=text], [type=password]
+{
+    width: 200px;
+    padding-bottom: 5px;  
+    border-radius: 4px;
+}
+
+input:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+
+.sec-inputs
+{
+    text-align: left;
+}
+
+#workplace
+{
+    width: 204px;
+    padding-bottom: 5px;
+    border-radius: 4px;     
+}
+
+#workplace:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+
+/* Main Colors : 
+- #f1f1f1f1 
+- #00b5ad   
+- #3a445a  
+- #47484b   
+- #ff855e   
+- #ffd777 
+*/

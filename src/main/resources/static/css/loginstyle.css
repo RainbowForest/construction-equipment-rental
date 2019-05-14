@@ -1,0 +1,86 @@
+body
+{
+    background-color: #00a4ac;
+}
+
+#login-form
+{   
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 30px;
+    position:absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -300px;
+    box-shadow: 
+        0px 0px 1px rgba(0,0,0,0.33);
+}
+
+#bar
+{
+    background-color: #00b5ad;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #00b5ad;
+}
+
+#loginbox
+{
+    background-color: #fff;
+    border: 1px solid #00b5ad;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input[type=text]
+{
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px; 
+}
+
+input[type=password]
+{
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 250px;
+    height: 30px; 
+    font-size: 15px;
+}
+
+input[type=submit]
+{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -75px;
+    background-color: #00b5ad;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 
+        0px 0px 1px rgba(0,0,0,0.33);
+}
+input[type=submit]:hover
+{
+    background-color: #11c6bc;
+}
+
+input:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}

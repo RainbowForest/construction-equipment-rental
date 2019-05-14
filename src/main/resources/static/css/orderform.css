@@ -1,0 +1,84 @@
+#form-container
+{
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33);    
+}
+
+#table-header
+{
+    padding: 5px;
+    background-color: #00b5ad ;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #3a445a;
+}
+
+#inputs-area
+{
+    display: grid;
+    grid-auto-columns: 330px;
+    padding: 10px;
+    line-height: 2;
+    text-align: right;
+    border: 1px solid #3a445a;
+}
+
+input[type=text], [type=password]
+{
+    width: 200px;
+    padding-bottom: 5px;  
+    border-radius: 4px;
+}
+
+input:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+
+#select-cs
+{   
+    width: 205px;
+    padding-bottom: 5px;
+    border-radius: 4px;     
+}
+
+#select-cs:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+
+table
+{
+	font-size: 12px;
+    margin-top: 5px;
+    width: 800px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, tr, td
+{
+    border: 1px solid #3a445a;
+    height: 30px; 
+}
+
+th
+{
+    background-color: #f1f1f1;
+    
+}
+
+.blank-cell, tr
+{
+    border: none;
+}

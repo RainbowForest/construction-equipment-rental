@@ -1,0 +1,111 @@
+#table-container
+{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 
+        0px 0px 3px rgba(0,0,0,0.33); 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 340px;
+    max-width: 800px;   
+}
+
+#order-info
+{
+    border: 1px solid #3a445a; 
+    height: 70px;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.4;
+}
+#date
+{
+    position: absolute;
+    top:50px;
+    left: 685px;
+    
+}
+
+#table-header
+{
+    padding: 5px;
+    background-color: #00b5ad ;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #3a445a;    
+}
+
+#info-form
+{
+    width: auto;
+    font-size: 14px;
+    display: grid;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #3a445a;
+    grid-auto-columns: 320px;
+    grid-auto-rows: 15px;
+}
+
+.inputs
+{
+    text-align: right;
+}
+
+
+input[type=text], [type=password]
+{   
+    width: 200px;
+    padding-bottom: 5px;  
+    border-radius: 4px;
+}
+
+input:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+#select-cs
+{    
+    width: 205px;
+    padding-bottom: 5px;
+    border-radius: 4px;     
+}
+
+#select-cs:focus
+{
+    outline-color: #00b5ad;
+    border-color: #00b5ad;
+}
+
+#product-list-table
+{
+    padding: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.void-cell
+{
+    border: none;
+}
+
+th, td
+{
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    border: 1px solid #3a445a;
+}
+
+#product-list-table tr:nth-child(even)
+{
+    background-color: #f1f1f1;
+}
+#product-list-table tr:nth-child(odd)
+{
+    background-color: #fff;
+}
