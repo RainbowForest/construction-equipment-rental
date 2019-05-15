@@ -14,7 +14,7 @@
 
 ### General info
 
-​		Internal system for renting construction equipment. The application is divided into two parts. The first one available for the administrator. Allows  to manage users, catalogs, construction sites, orders, and liabilities. The second part is available to users. Allows ordering construction equipment (has a shopping cart features), checking the order status and all liabilities for the given construction site. 							     The application is secured with the Spring Web Security.
+Internal system for renting construction equipment. The application is divided into two parts. The first one available for the administrator. Allows  to manage users, catalogs, construction sites, orders, and liabilities. The second part is available to users. Allows ordering construction equipment (has a shopping cart features), checking the order status and all liabilities for the given construction site. 							     The application is secured with the Spring Web Security.
 
 ### Screenshots
 
