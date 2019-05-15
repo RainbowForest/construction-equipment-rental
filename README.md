@@ -24,7 +24,7 @@
 
 ![user-form](https://user-images.githubusercontent.com/50141193/57783940-55e8d000-772f-11e9-8d93-62f7058aa72b.jpg)
 
-users.jpg
+![users](https://user-images.githubusercontent.com/50141193/57784078-98121180-772f-11e9-86f0-ab63b22d403e.jpg)
 
 cart.jpg
 
