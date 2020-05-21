@@ -32,7 +32,7 @@ Internal system for renting construction equipment. The application is divided i
 
 ### Tools and Technologies
 
-- **Java 11**
+- **Java 8**
 - **Spring Boot** - version 2.2.0
 - **Spring Web MVC** - version 5.1.5.RELEASE
 - **Spring Security** - version 5.1.4 RELEASE
