@@ -1,6 +1,6 @@
 # Construction Equipment Rental Software
 
-> Web Application using Spring Boot with multiple modules (author : Kamil Lesniakowski PL)
+> Web Application using Spring Boot with multiple modules
 
 ### Table of contents
 
