@@ -85,7 +85,3 @@ Internal system for renting construction equipment. The application is divided i
 ### Status:
 
 **Application status :** BETA 
-
-### Contact:
-
-Email : RainbowForestGit@gmail.com
